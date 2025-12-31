@@ -35,6 +35,8 @@ const PetList = () => {
         placeholder="Search for a pet"
         style={styles.searchInput}
         onChangeText={(value) => setSearch(value)}
+        value={search}
+        placeholderTextColor="#888"
       />
 
       {/* Filter by type */}
